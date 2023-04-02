@@ -21,10 +21,10 @@
         }
     </style>
     <script>
-        function validateform()
+        function validateeform()
         {
-            var sclper=parseInt(document.pform.sclper.value);
-            var colper=parseInt(document.pform.colper.value);
+            var sclper=parseInt(document.eform.sclper.value);
+            var colper=parseInt(document.eform.colper.value);
             if(sclper<35 || sclper>100)
             {  
                 alert("Percentage: Enter a valid percentage");  
@@ -56,7 +56,7 @@
     <div class="pd">
         <h1 style="text-align: left;">Education:</h1>
         <div class="formm" class="required">
-        <form name="pform" method="post"action="Misc2.html"onsubmit="return validateform()">
+        <form name="eform" method="Form"action="Misc2.html"onsubmit="return validateeform()">
             <table cellspacing="20px">
 
                 <tr>
