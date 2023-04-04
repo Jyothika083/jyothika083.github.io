@@ -89,20 +89,40 @@ a {
     background-image: linear-gradient(rgba(0, 0, 0, 0.45),
             rgba(0, 0, 0, 0.45)), url("lib.jpg");
 }
+#lib:hover
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.12),
+            rgba(0, 0, 0, 0.12)), url("lib.jpg");
+}
 
 #place {
     background-image: linear-gradient(rgba(0, 0, 0, 0.45),
             rgba(0, 0, 0, 0.45)), url("place.jpg");
+}
+#place:hover
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.12),
+            rgba(0, 0, 0, 0.12)), url("place.jpg");
 }
 
 #lab {
     background-image: linear-gradient(rgba(0, 0, 0, 0.45),
             rgba(0, 0, 0, 0.45)), url("lab.jpg");
 }
+#lab:hover
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.12),
+            rgba(0, 0, 0, 0.12)), url("lab.jpg");
+}
 
 #research {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
-            rgba(0, 0, 0, 0.6)), url("research.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)), url("research.jpg");
+}
+#research:hover
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.12),
+            rgba(0, 0, 0, 0.12)), url("research.jpg");
 }
 
 .tabs {
